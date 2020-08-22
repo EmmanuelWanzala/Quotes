@@ -1,0 +1,20 @@
+<!-- <p>book works!</p> -->
+<div class="container">
+  <h1>QUOTES</h1>
+
+    <hr>
+  <div class="row">
+    <div class="col-md-6">
+  <div *ngFor='let qt of quote;let i= index'>
+  <li>{{qt.quotation}} </li>
+  <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+  <app-quote-detail *ngIf='qt.showDescription' [qt]='qt' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+ <app-vote></app-vote>
+ </div>
+  </div>
+<div class="col-md-6">
+
+<app-quote-form></app-quote-form>
+</div>
+  </div>
+  </div>
