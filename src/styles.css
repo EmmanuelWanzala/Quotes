@@ -8,3 +8,7 @@ body{
 h2{
      font-family: 'Caveat', cursive
 }
+
+ li,p{
+     font-family: 'Courgette', cursive;
+}
