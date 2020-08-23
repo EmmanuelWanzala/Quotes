@@ -42,3 +42,7 @@ Type [code .] or [atom .] depending on your preffered text editor.
 ## License
 
 https://spdx.org/licenses/MIT.html
+
+## Contacts
+
+(wanzalaemmanuel28@gmail.com)
