@@ -5,3 +5,7 @@ body{
      background-image: url(../src/assets/download.jpeg);
    
 }
+
+.card{
+     background-color: blueviolet;
+}
