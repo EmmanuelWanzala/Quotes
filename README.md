@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Project Set up
+
+Press the green button written code and copy the URL
+
+on the terminal:
+
+(git clone https://github.com/EmmanuelWanzala/Quotes.git)
+
+cd Quotes
+
+Type [code .] or [atom .] depending on your preffered text editor.
+
+
+## License
+
+https://spdx.org/licenses/MIT.html
