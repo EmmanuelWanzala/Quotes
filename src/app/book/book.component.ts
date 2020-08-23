@@ -20,6 +20,17 @@ export class BookComponent implements OnInit {
        this.quote[index].showDescription=!this.quote[index].showDescription;
      }
 
+
+     addNewQuote(qt){
+         let qtLength=this.quote.length;
+         qt.id= qtLength+1;
+         qt.completeDate=new Date(qt.completeDate)
+          this.quote.push(qt)
+
+     }
+
+
+
      deleteQuote(isComplete,index){
        if(isComplete){
          let toDelete = confirm(`Are you sure you want to delete ${this.quote[index].name}?`)
