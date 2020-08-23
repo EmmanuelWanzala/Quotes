@@ -22,7 +22,7 @@ export class BookComponent implements OnInit {
 
      deleteQuote(isComplete,index){
        if(isComplete){
-         let toDelete = confirm(`Are you sure you want to delete ${this.quote[index].quotation}?`)
+         let toDelete = confirm(`Are you sure you want to delete ${this.quote[index].name}?`)
 
          if (toDelete){
            this.quote.splice(index,1)
