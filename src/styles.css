@@ -12,3 +12,7 @@ h1,h2{
  li,p{
      font-family: 'Courgette', cursive;
 }
+
+.col{
+     width: 100px;
+}
