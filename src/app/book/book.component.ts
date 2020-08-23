@@ -8,9 +8,6 @@ import { Quote } from '../quote';
 })
 export class BookComponent implements OnInit {
   quote:Quote[]=[
-    // {name:'Sea swim',author:'Ben Carson',quote:'If you swim in the sea,be ready for the waves',submitter:'Varshita Donavan'},
-    // {name:'Space',author:'Neil armstrong',quote:'If you want to go to space,you have to be ready for uncomfortable situations',submitter:'Sajad Abdi'},
-    // {name:'Get more',author:'Kahiji Kiuot',quote:'You can only get more if you have less on your side',submitter:'Carl Odinga'}
     new Quote('Sea Swim','Ben Carson','If you swim in the sea,be ready for the waves','Varshita Donavan',new Date (2002,7,20)),
     new Quote('Space','Neil Armstrong','If you want to go to space,you have to be ready for uncomfortable situations','Sajad Abdi',new Date (1990,8,8)),
     new Quote('Get more','Kahiji Kiuot','You can only get more if you have less on your side','Carl Odinga',new Date (2006,9,11)),
