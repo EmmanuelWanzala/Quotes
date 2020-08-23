@@ -30,7 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <img src="src/assets/screenshot.png">
 
+## Live link to the project
 
+https://emmanuelwanzala.github.io/Quotes/
 
 ## Project Set up
 
