@@ -10,11 +10,11 @@ export class VoteComponent implements OnInit {
 
 @Output() isComplete = new EventEmitter<boolean>();
 
-    uvotes = 0;
+    upvotes = 0;
      dvotes = 0;
 
      upVote(){
-       this.uvotes = this.uvotes+1;
+       this.upvotes = this.upvotes+1;
      }
 
     downVote(){
