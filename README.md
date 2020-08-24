@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Project Description
+
+This is an application that allows users to view and read quotes as well as add quotes to the application.
+
 ## A screenshot of the project
 
 <img src="src/assets/screenshot.png">
