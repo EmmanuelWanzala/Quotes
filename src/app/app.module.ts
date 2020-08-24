@@ -11,6 +11,7 @@ import { VoteComponent } from './vote/vote.component';
 import { DateCountPipe } from './date-count.pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { DateCountPipe } from './date-count.pipe';
     QuoteDetailComponent,
     VoteComponent,
     DateCountPipe,
+    
     
     
     
